@@ -50,7 +50,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
-		'No Animation'
+		'No Animation',
+		'Blink'
 	];
 	public var ignoreWarnings = false;
 	var curNoteTypes:Array<String> = [];
