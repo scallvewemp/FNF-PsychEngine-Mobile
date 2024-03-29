@@ -3146,6 +3146,12 @@ class PlayState extends MusicBeatState
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
 						}
+
+					case 'Blink': // Blink Note
+                                                boyfriend.stunned = true;
+						var t: FlxTimer = new FlxTimer();
+
+						t.start(5, (_) -> {boyfriend.stunned = false;}, 0);
 				}
 			}
 
